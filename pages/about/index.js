@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-undef */
+/* eslint-disable react/jsx-key */
 //  data
 const aboutData = [
   {

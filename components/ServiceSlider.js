@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 // data
 const serviceData = [
   {
