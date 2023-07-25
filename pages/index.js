@@ -25,8 +25,8 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-            Transforming Ideas <br /> Info{' '}
-            <span className="text-accent">Digital Reality</span>
+            Lautaro Llusa Portfolio <br /> This is a{' '}
+            <span className="text-accent">Work in Progress</span>
           </motion.h1>
           {/* subtitle */}
           <motion.p
@@ -36,9 +36,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            lorem impsum dolor sit amet consectetur adipisicing elit. itaque
-            nostrum quam reprehenerit vro, tenetur coluptatem nulla
-            autoaspernatur dolores ut.
+            Last update: 25 / July / 2023
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">
