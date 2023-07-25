@@ -4,4 +4,11 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = nextConfig
+
+
+
+module.exports = {nextConfig,
+images:{
+  loader: 'imgix',
+  path: 'http://factoriaf5-4966.imgix.net/'
+}}
