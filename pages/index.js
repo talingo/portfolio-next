@@ -19,18 +19,22 @@ const Home = () => {
         <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
           {/* title */}
           <motion.h1
-            variants={fadeIn('down', 0.2)}
-            initial="hidden"
-            animate="show"
+            // variants={fadeIn('down', 0.1)}
+            // initial="hidden"
+            // animate="show"
+            // exit="hidden"
+            initial={{ filter: 'blur(10px)' }}
+            animate={{ filter: 'blur(0px)' }}
+            transition={{ duration: 3 }}
             exit="hidden"
             className="h1"
           >
-            Lautaro Llusa Portfolio <br /> This is a{' '}
-            <span className="text-accent">Work in Progress</span>
+            Lautaro Llusa Portfolio <br /> Full Stack{' '}
+            <span className="text-accent">Developer</span>
           </motion.h1>
           {/* subtitle */}
           <motion.p
-            variants={fadeIn('down', 0.3)}
+            variants={fadeIn('down', 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
@@ -54,11 +58,12 @@ const Home = () => {
         </div>
       </div>
       {/* image */}
-      <div className='w-[1200px] h-full absolute right-0 bottom-0'>
+      <div className="w-[1200px] h-full absolute right-0 bottom-0">
         {/* bg img */}
-        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right 
-        xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0">
-        </div>
+        <div
+          className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right 
+        xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"
+        ></div>
         {/* Particles */}
         <ParticlesContainer />
       </div>
